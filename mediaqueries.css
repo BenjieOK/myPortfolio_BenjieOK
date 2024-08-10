@@ -80,7 +80,7 @@
         overflow: hidden;
         transition: all 0.3 ease-in-out;
     }
-    
+
     @media screen and (max-width: 600px) {
         #contact,
         footer {
@@ -133,5 +133,11 @@
         }
         .text-container {
           text-align: justify;
+        }
+        .contact-info-upper-container {
+            justify-content: left;
+        }
+        .contact-info-container {
+            margin-bottom: 0.5rem;
         }
       }

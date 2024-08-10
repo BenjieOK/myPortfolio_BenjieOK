@@ -172,6 +172,12 @@ section {
     margin-bottom: 1rem;
 }
 
+.nickname{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
 .title {
     font-size: 3rem;
     text-align: center;
