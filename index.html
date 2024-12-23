@@ -40,6 +40,7 @@
         </div>
       </div>
     </nav>
+    <!-- END MOBILE VIEW -  NAV AREA -->
 
     <!-- PROFILE SECTION -->
     <section id="profile">
@@ -83,7 +84,7 @@
             src="./assets/linkedin.png"
             alt="My LinkedIn Profile"
             class="icon"
-            onclick="location.href='https://www.linkedin.com/in/BenjieOK'"
+            onclick="window.open('https://www.linkedin.com/in/BenjieOK', '_blank')"
           />
 
           <!-- GITHUB -->
@@ -91,8 +92,29 @@
             src="./assets/github.png"
             alt="My Github Profile"
             class="icon"
-            onclick="location.href='https://www.github.com/BenjieOK'"
+            onclick="window.open('https://www.github.com/BenjieOK', '_blank')"
           />
+
+          <!-- X (TWITTER)  -->
+          <img
+            src="./assets/x.png"
+            alt="My X Profile"
+            class="icon"
+            onclick="window.open('https://www.x.com/BenjieOK_GH', '_blank')"
+          />
+
+          <!-- X (TWITTER)  -->
+          <img
+            src="./assets/facebook.png"
+            alt="My Facebook Profile"
+            class="icon"
+            onclick="window.open('https://www.facebook.com/BenjieOK', '_blank')"
+          />
+        </div>
+        <div>
+          <br/>
+          <h4 id="quote"></h4>
+          <button class="btn btn-color-2" onclick="generateQuote()">See some nice quotes</button>
         </div>
       </div>
     </section>
@@ -443,6 +465,14 @@
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
+        <!-- <div class="gohome">
+          <img
+            src="./assets/up-arrow.png"
+            alt="Arrow icon"
+            class="icon"
+            onclick="location.href='#'"
+          />
+        </div> -->
       </nav>
       <p>Copyright &#169; 2024 ßenjieOK. All Rights Reserved.</p>
     </footer>
