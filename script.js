@@ -66,3 +66,23 @@ const quotes = [
     }
   
   }
+
+
+  // const handShake = document.getElementById("hand-shake");
+  // let waveInterval;
+
+  // function wave() {
+  //   let waveCount = 1;
+  //   waveInterval = setInterval(() => {
+  //     if (waveCount % 5 === 0) {
+  //       handShake.style.transform = "rotate(-50deg)";
+  //     } else {
+  //       handShake.style.transform = "rotate(50deg)";
+  //     }
+  //     waveCount++;
+  //     if (waveCount === 6) {
+  //       clearInterval(waveInterval);
+  //       handShake.style.transform = "rotate(00deg)";
+  //     }
+  //   }, 10000);
+  // }
