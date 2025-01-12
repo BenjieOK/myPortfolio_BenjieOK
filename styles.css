@@ -50,7 +50,7 @@ a {
 }
 
 a:hover {
-    color: grey;
+    color: rgb(129, 120, 120);
     cursor: pointer;
     text-underline-offset: 1.5rem;
     text-decoration-color: rgb(181, 181, 181);
@@ -446,7 +446,7 @@ article .icon{
     width: 100vw;
     height: 11vh;
     z-index: 1000;
-    background: #e9e8e8;
+    background: #f5f4f4;
   }
 
   .bttt{
