@@ -7,6 +7,21 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
     <link rel="icon" href="./assets/BenjieOK-Logo.png" />
+
+    <style>
+      @keyframes wave {
+          0% { transform: rotate(0deg); }
+          25% { transform: rotate(20deg); }
+          50% { transform: rotate(0deg); }
+          75% { transform: rotate(-20deg); }
+          100% { transform: rotate(0deg); }
+      }
+
+      #handshake {
+          display: inline-block;
+          animation: wave 1s infinite;
+      }
+  </style>
   </head>
   <body>
     <!-- NAV AREA-->
@@ -56,10 +71,7 @@
 
       <!-- PROFILE PICTURE -->
       <div class="introduction_text">
-        <p class="introduction_text_p1">Hi there <span id="hand-shake">👋</span>, I am</p>
-        <script>
-          
-        </script>
+        <p class="introduction_text_p1">Hi there <span id="handshake">👋</span>, I am</p>
         <h1 class="title">Benjamin Kwasi Owusu</h1>
         <h1 class="nickname">😅 ßenjieOK 🫣</h1>
         <p class="introduction_text_p2">
@@ -70,7 +82,7 @@
           <!-- VIEW MY CV -->
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/CV_BenjieOK.pdf')"
+            onclick="window.open('./assets/CV_BenjieOK1.pdf')"
           >
             View My CV
           </button>
@@ -356,7 +368,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Agbedus Consult</h3>
+                  <a href="http://www.agbedus.com" target="_blank" rel="noopener noreferrer"><h3>Agbedus Consult</h3></a>
                   <p>Programs Manager</p>
                 </div>
               </article>
@@ -368,7 +380,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Hubtel Ghana</h3>
+                  <a href="http://www.hubtel.com" target="_blank" rel="noopener noreferrer"><h3>Hubtel Ghana</h3></a>
                   <p>Product Manager</p>
                 </div>
               </article>
@@ -380,7 +392,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Turntabl Ghana</h3>
+                  <a href="http://www.turntabl.io" target="_blank" rel="noopener noreferrer"><h3>Turntabl Ghana</h3></a>
                   <p>Software Engineer</p>
                 </div>
               </article>
@@ -392,7 +404,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Amalitech Services</h3>
+                  <a href="http://www.amalitech.com" target="_blank" rel="noopener noreferrer"><h3>Amalitech Services</h3></a>
                   <p>Software Engineer</p>
                 </div>
               </article>
@@ -404,7 +416,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Amalitech Training Academy</h3>
+                  <a href="https://www.amalitech.com/ghana-training/" target="_blank" rel="noopener noreferrer"><h3>Amalitech Training Academy</h3></a>
                   <p>SWE Trainee</p>
                 </div>
               </article>
@@ -416,7 +428,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Total Energies</h3>
+                  <a href="https://www.totalenergies.com.gh/" target="_blank" rel="noopener noreferrer"><h3>Total Energies</h3></a>
                   <p>IT Systems NSP</p>
                 </div>
               </article>
@@ -570,27 +582,8 @@
               <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
-        
       
-        
-        <!-- <div class="gohome">
-          <span>
-            <a href="#">
-              <img
-            src="./assets/up-arrow.png"
-            alt="Arrow icon"
-            class="icon"
-            onclick="location.href='#'"
-          />
-              Back to Top
-            </a>
-          </span>
-        </div> -->
-      
-      
-        
-      
-      <p>Copyright &#169; 2025 ßenjieOK. All Rights Reserved.</p>
+      <p>Copyright &#169; 2025 <a href="#"><strong> · ßenjieOK · </strong></a> All Rights Reserved.</p>
       <a href="#" class="bttt">
         <img
       src="./assets/up-arrow.png"
